@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Indie+Flower&family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Indie+Flower&family=Poppins:wght@100;300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +21,7 @@ header {
   height: 220px;
   padding: 20px;
   padding-left: 5px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .leyenda-logo {
   display: flex;
