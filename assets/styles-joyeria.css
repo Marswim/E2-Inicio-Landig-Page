@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Indie+Flower&family=Poppins:wght@100&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
   list-style: none;
 }
@@ -87,13 +88,14 @@ nav a {
   background-color: rgba(80, 80, 80, 0.9);
   color: #fff;
   font-size: 1.8rem;
+  font-weight: 300;
   text-decoration: none;
   text-transform: none;
   text-align: center;
 }
 
 nav a:hover {
-  color: #9c5e00;
+  color: #fa9600;
 }
 
 .logo-joyeria {
@@ -102,7 +104,7 @@ nav a:hover {
 }
 .navbar-list li:first-child > a {
   color: azure;
-  font-weight: 700;
+  font-weight: 900;
 }
 .carrito {
   display: flex;
