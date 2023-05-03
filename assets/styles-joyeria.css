@@ -203,6 +203,10 @@ section {
   border-top-right-radius: 50% 60%;
   border-bottom-left-radius: 60% 20%;
   border-bottom-right-radius: 60% 20%;
+  border-color: rgb(24, 24, 50);
+  border-width: 5px;
+  border-style: double;
+  gap: 20px;
 }
 .joya-card img {
   display: flex;
@@ -210,25 +214,79 @@ section {
   align-items: center;
   width: 50%;
 }
+.joya-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
 .anillo-card-top {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 50px;
-  padding: 10px;
+  align-items: start;
+  padding: 5px;
+}
+.anillo-card-top h3 {
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+}
+.anillo-card-top span {
+  color: white;
+  background-color: rgb(24, 24, 50);
+  font-weight: 900;
+  text-align: center;
+  width: 50px;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .anillo-card-bottom {
   display: flex;
-  background-color: rgba(80, 80, 80, 0.9);
+  justify-content: space-between;
+  align-items: start;
 }
 .joya-card-creator {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
+  align-items: start;
+  gap: 10px;
+}
+.creator-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: start;
+  color: rgb(24, 24, 50);
+  font-size: 16px;
+  font-weight: 600;
+}
+.red-social {
+  color: rgb(24, 24, 50);
+  font-weight: 900;
+  cursor: pointer;
+}
+div a .red-social:hover {
+  color: white;
 }
 .joya-card-creator img {
   width: 10%;
+  border-radius: 20px;
+}
+.card-price {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+  font-size: 16px;
+  font-weight: 900;
+  gap: 10px;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
 }
 #info {
   padding: 70px 0;
@@ -268,6 +326,3 @@ section {
 }
 
 /*explore section */
-
-#explora {
-}
