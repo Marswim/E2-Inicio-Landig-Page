@@ -105,6 +105,7 @@ nav a {
 
 nav a:hover {
   color: rgb(24, 24, 50);
+  font-weight: 900;
 }
 
 .navbar-list li:first-child > a {
@@ -125,11 +126,7 @@ main {
   width: 100%;
   height: 100%;
 }
-section {
-  display: flex;
-  justify-content: space-between;
-  gap: 80px;
-}
+
 .Joyas {
   display: flex;
   justify-content: space-between;
@@ -143,7 +140,6 @@ section {
   align-items: center;
   background-color: rgba(80, 80, 80, 0.9);
   color: #fff;
-
   padding: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -182,11 +178,18 @@ section {
   font-size: 18px;
   padding: 20px;
   border: none;
+  font-weight: 900;
 }
 .descubre > a {
   color: white;
+  font-weight: 700;
+}
+.descubre:hover {
+  background-color: white;
+  color: rgb(24, 24, 50);
   font-weight: 900;
 }
+
 .joya-card {
   display: flex;
   flex-direction: column;
@@ -266,7 +269,7 @@ section {
   font-weight: 900;
   cursor: pointer;
 }
-div a .red-social:hover {
+.red-social:hover {
   color: white;
 }
 .joya-card-creator img {
@@ -277,7 +280,7 @@ div a .red-social:hover {
   color: white;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   text-align: start;
   font-size: 16px;
   font-weight: 900;
@@ -286,6 +289,7 @@ div a .red-social:hover {
 .price {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 5px;
 }
 /*intro section */
@@ -317,33 +321,20 @@ div a .red-social:hover {
   font-weight: 900;
   font-size: 22px;
 }
-#info {
-  padding: 70px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  gap: 50px;
-  color: white;
-}
-#info h2 {
-  font-size: 32px;
-  font-weight: 800;
-}
-
+/* section cards */
 .info-cards-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
+  padding: 40px;
 }
+
 .info-card {
   background-color: rgba(80, 80, 80, 0.9);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 40px 30px;
+  padding: 20px 20px;
   align-items: center;
   text-align: center;
   width: 300px;
