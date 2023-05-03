@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Indie+Flower&family=Poppins:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Indie+Flower&family=Poppins:wght@100;300;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -287,6 +287,35 @@ div a .red-social:hover {
   display: flex;
   justify-content: space-between;
   gap: 5px;
+}
+/*intro section */
+#intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 40px;
+  gap: 20px;
+}
+.info-intro p {
+  width: 60%;
+  font-size: 18px;
+  text-align: justify;
+}
+.info-intro p > span {
+  background-color: rgba(80, 80, 80, 0.9);
+  border-radius: 10px;
+  padding: 3px;
+  color: rgb(24, 24, 50);
+  font-weight: 900;
+  font-size: 22px;
 }
 #info {
   padding: 70px 0;
