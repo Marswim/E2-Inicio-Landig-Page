@@ -298,6 +298,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 40px;
 }
 .info-intro {
   display: flex;
@@ -341,8 +342,46 @@ main {
   height: 290px;
   border-radius: 20px;
 }
+.info-card p {
+  line-height: 0.97;
+}
 .info-card img {
   width: 50px;
 }
 
 /*explore section */
+#explora {
+  padding: 60px 0;
+}
+.explora-info {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+.explora-info h2 {
+  color: white;
+  width: 60%;
+}
+.explora-pasos-seleccion {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.explora-pasos-seleccion p {
+  color: white;
+  width: 100%;
+  align-items: end;
+}
+.explora-pasos-seleccion > a {
+  color: white;
+  font-weight: 700;
+}
+.comenza {
+  background-color: rgba(80, 80, 80, 0.9);
+  font-weight: 900;
+}
+.comenza:hover {
+  background-color: white;
+  color: rgb(24, 24, 50);
+  font-weight: 900;
+}
