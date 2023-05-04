@@ -51,6 +51,10 @@ header {
   padding: 5px;
   padding-left: 0px;
 }
+.texto-logo {
+  display: flex;
+  flex-direction: column;
+}
 .navbar,
 .navbar-list {
   display: flex;
@@ -415,7 +419,7 @@ main {
   flex-direction: column;
   gap: 10px;
 }
-.bt-todos {
+.btn-todos {
   color: white;
   border-radius: 10px;
   border: none;
@@ -424,7 +428,7 @@ main {
   margin-right: 10px;
   font-weight: 900;
 }
-.bt-todos:hover {
+.btn-todos:hover {
   color: rgb(24, 24, 50);
 }
 .oro {
@@ -432,7 +436,7 @@ main {
   flex-direction: column;
   gap: 10px;
 }
-.bt-oro {
+.btn-oro {
   color: white;
   border-radius: 10px;
   border: none;
@@ -441,11 +445,11 @@ main {
   margin-right: 10px;
   font-weight: 900;
 }
-.bt-oro:hover {
+.btn-oro:hover {
   color: rgb(24, 24, 50);
 }
 .categories img {
-  width: 100px;
+  width: 150px;
   border-radius: 50%;
   transform: translateZ(50%);
 }
@@ -454,7 +458,7 @@ main {
   flex-direction: column;
   gap: 10px;
 }
-.bt-plata {
+.btn-plata {
   color: white;
   border-radius: 10px;
   border: none;
@@ -463,7 +467,7 @@ main {
   margin-right: 10px;
   font-weight: 900;
 }
-.bt-plata:hover {
+.btn-plata:hover {
   color: rgb(24, 24, 50);
 }
 .platino {
@@ -471,7 +475,7 @@ main {
   flex-direction: column;
   gap: 10px;
 }
-.bt-platino {
+.btn-platino {
   color: white;
   border-radius: 10px;
   border: none;
@@ -480,7 +484,7 @@ main {
   margin-right: 10px;
   font-weight: 900;
 }
-.bt-platino:hover {
+.btn-platino:hover {
   color: rgb(24, 24, 50);
 }
 .combinados {
@@ -488,7 +492,7 @@ main {
   flex-direction: column;
   gap: 10px;
 }
-.bt-combinados {
+.btn-combinados {
   color: white;
   border-radius: 10px;
   border: none;
@@ -497,7 +501,7 @@ main {
   margin-right: 10px;
   font-weight: 900;
 }
-.bt-combinados:hover {
+.btn-combinados:hover {
   color: rgb(24, 24, 50);
 }
 /* productos */
