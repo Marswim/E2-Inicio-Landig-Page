@@ -420,6 +420,11 @@ main {
   gap: 10px;
 }
 .btn-todos {
+  background-color: rgba(80, 80, 80, 0.9);
+  border-radius: 10px;
+  border: none;
+}
+.btn-todos > a {
   color: white;
   border-radius: 10px;
   border: none;
@@ -428,7 +433,7 @@ main {
   margin-right: 10px;
   font-weight: 900;
 }
-.btn-todos:hover {
+.btn-todos > a:hover {
   color: rgb(24, 24, 50);
 }
 .oro {
@@ -437,6 +442,11 @@ main {
   gap: 10px;
 }
 .btn-oro {
+  background-color: rgba(80, 80, 80, 0.9);
+  border-radius: 10px;
+  border: none;
+}
+.btn-oro > a {
   color: white;
   border-radius: 10px;
   border: none;
@@ -445,7 +455,7 @@ main {
   margin-right: 10px;
   font-weight: 900;
 }
-.btn-oro:hover {
+.btn-oro > a:hover {
   color: rgb(24, 24, 50);
 }
 .categories img {
@@ -459,6 +469,11 @@ main {
   gap: 10px;
 }
 .btn-plata {
+  background-color: rgba(80, 80, 80, 0.9);
+  border-radius: 10px;
+  border: none;
+}
+.btn-plata > a {
   color: white;
   border-radius: 10px;
   border: none;
@@ -467,7 +482,7 @@ main {
   margin-right: 10px;
   font-weight: 900;
 }
-.btn-plata:hover {
+.btn-plata > a:hover {
   color: rgb(24, 24, 50);
 }
 .platino {
@@ -476,6 +491,11 @@ main {
   gap: 10px;
 }
 .btn-platino {
+  background-color: rgba(80, 80, 80, 0.9);
+  border-radius: 10px;
+  border: none;
+}
+.btn-platino > a {
   color: white;
   border-radius: 10px;
   border: none;
@@ -484,7 +504,7 @@ main {
   margin-right: 10px;
   font-weight: 900;
 }
-.btn-platino:hover {
+.btn-platino > a:hover {
   color: rgb(24, 24, 50);
 }
 .combinados {
@@ -493,6 +513,11 @@ main {
   gap: 10px;
 }
 .btn-combinados {
+  background-color: rgba(80, 80, 80, 0.9);
+  border-radius: 10px;
+  border: none;
+}
+.btn-combinados > a {
   color: white;
   border-radius: 10px;
   border: none;
@@ -501,7 +526,7 @@ main {
   margin-right: 10px;
   font-weight: 900;
 }
-.btn-combinados:hover {
+.btn-combinados > a:hover {
   color: rgb(24, 24, 50);
 }
 /* productos */
@@ -592,10 +617,12 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  white-space: nowrap;
 }
 .bot-info {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .offer-time {
   display: flex;
@@ -608,7 +635,17 @@ main {
   font-weight: 700;
 }
 .btn-add {
-  background-color: rgba(50, 49, 62, 0.3);
+  background-color: rgba(50, 49, 62, 0);
+  border-radius: 10px;
+  padding: 5px 0px;
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+}
+.btn-add > a {
+  background-color: rgb(50, 49, 62);
   border-radius: 10px;
   padding: 5px 20px;
   width: 100%;
@@ -617,9 +654,13 @@ main {
   font-weight: 900;
   color: rgb(24, 24, 50);
 }
-.btn-add:hover {
+.btn-add > a:hover {
   background-color: rgb(24, 24, 50);
   color: white;
+  border-radius: 10px;
+  padding: 5px 20px;
+  width: 100%;
+  border: none;
 }
 
 .oro-01 {
