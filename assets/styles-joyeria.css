@@ -11,16 +11,13 @@
 header {
   background-color: rgb(12, 12, 24);
   box-shadow: 0 20px 40px rgba(50, 49, 62, 0.3);
-
   display: flex;
   width: 100%;
-  height: 100%;
   justify-content: flex-start;
   align-items: center;
   text-align: center;
   color: #fff;
-  height: 250px;
-  padding: 20px;
+  height: 200px;
   padding-left: 5px;
   padding-top: 0px;
   padding-bottom: 0;
@@ -28,8 +25,14 @@ header {
   font-weight: 900;
   gap: 150px;
   margin-left: 0%;
+  margin-top: 0;
   border-bottom: solid 2px;
   border-color: rgba(255, 255, 255, 0.165);
+  background: linear-gradient(
+    to bottom,
+    rgb(21, 21, 42),
+    rgba(10, 10, 20, 0.872)
+  );
 }
 
 .leyenda-logo {
@@ -39,66 +42,58 @@ header {
   align-items: center;
   text-align: center;
   text-justify: distribute;
-  padding: 0px;
-  padding-left: 5px;
-  padding-right: 140px;
-  gap: 5px;
-  margin-left: 0.01rem;
+  padding: 30px;
+  padding-left: 0;
+  gap: 3px;
+  margin-left: 0;
 }
 
+.texto-logo {
+  display: flex;
+  flex-direction: column;
+}
 #logo-joyeria {
   display: flex;
   align-items: center;
   width: 25%;
   height: 25%;
   padding: 5px;
-  padding-left: 0px;
 }
-.texto-logo {
+.navbar {
   display: flex;
-  flex-direction: column;
-}
-.navbar,
-.navbar-list {
-  display: flex;
-  justify-content: end;
+  justify-content: space-between;
   background-color: rgba(80, 80, 80, 0.9);
   color: #fff;
-  gap: 20px;
-  padding: 30px;
-  padding-top: 0%;
-  padding-left: 0%;
-  padding-right: 0%;
   align-items: center;
   text-align: center;
   width: 100%;
-
+  height: 200px;
   border-radius: 30% / 50% 0 90% 50%;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
   border-bottom: solid 2px;
   border-color: rgba(255, 255, 255, 0.165);
-}
-.navbar-list {
-  padding: 20px;
+  padding: 0;
+  padding-right: 80px;
+  margin: 0;
 }
 
-nav ul {
+.navbar-list {
   display: flex;
-  flex-direction: row;
-  list-style: none;
-  justify-content: start;
+  justify-content: flex-start;
+  background-color: rgba(80, 80, 80, 0.9);
+  color: #fff;
+  gap: 20px;
   align-items: center;
   text-align: center;
-  gap: 5px;
-  padding: 120px;
-}
-
-nav li {
-  display: flex;
-  justify-content: space-around;
-
-  text-align: center;
-  font-size: 1.5rem;
+  width: 100%;
+  height: 100%;
+  padding-left: 80px;
+  border-radius: 30% / 50% 0 90% 50%;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border-bottom: solid 2px;
+  border-color: rgba(255, 255, 255, 0.165);
+  margin: 0;
+  margin-top: 0;
 }
 
 nav a {
@@ -190,6 +185,7 @@ main {
   font-weight: 900;
   border: solid 2px;
   border-color: rgba(255, 255, 255, 0.625);
+  cursor: pointer;
 }
 .descubre > a {
   color: white;
@@ -395,6 +391,7 @@ main {
   border: solid;
   border-color: white;
   color: white;
+  cursor: pointer;
 }
 .comenza:hover {
   background-color: white;
@@ -715,4 +712,32 @@ main {
   text-align: center;
   gap: 20px;
   padding: 10px;
+}
+/*menu hamburgues*/
+#menu-toggle,
+#cart-toggle,
+.menu-label {
+  display: none;
+}
+.cart {
+  position: absolute;
+  top: 65px;
+  right: 0;
+  padding: 50px 30px;
+  border-left: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: calc(100vh - 65px);
+  overflow: scroll;
+  display: none;
+  z-index: 2;
+}
+.cart h2 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 700;
+}
+#cart-toggle:checked + .cart {
+  display: flex;
 }

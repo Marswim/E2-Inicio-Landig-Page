@@ -22,6 +22,10 @@
         />
       </div>
       <nav class="navbar">
+        <label for="menu-toggle" class="menu-label">
+          <img src="./assets/menu-hamb.png" alt="menu-icono" />
+        </label>
+        <input type="checkbox" id="menu-toggle" />
         <ul class="navbar-list">
           <li class="menu"><a href="#">Inicio</a></li>
           <li class="menu"><a href="#">Anillos</a></li>
@@ -29,13 +33,32 @@
           <li class="menu"><a href="#">Pulseras</a></li>
           <li class="menu"><a href="#">Relojes</a></li>
           <li class="menu"><a href="#">Contacto</a></li>
+        </ul>
+        <label for="cart-toggle" class="cart-label">
           <img
             class="carrito"
             id="carrito"
             src="assets/carrito.png"
             alt="carrito de compras"
           />
-        </ul>
+        </label>
+        <input type="checkbox" id="cart-toggle" />
+        <div class="cart">
+          <h2>Tus Joyas NFT</h2>
+          <div class="cart-item">
+            <img src="./assets/anillo-oro.png" alt="NFT del carrito" />
+            <div class="item-info">
+              <h3 class="item-title">Anillo de oro</h3>
+              <p>Codigo 00</p>
+              <span class="item-price">1.85 ETH</span>
+            </div>
+            <div class="item-handler">
+              <span class="quantity-handler down">-</span>
+              <span class="item-quantity">+</span>
+              <span class="quantity-handler up">1</span>
+            </div>
+          </div>
+        </div>
       </nav>
     </header>
     <main>
@@ -275,8 +298,9 @@
                 </div>
               </div>
             </div>
-            <!--PRODUCTO-03-->
+            <!--fin de linea 00 que contiene 3 cards-->
           </div>
+          <!--comienzo de lina01 contenedora de 3 cards-->
         </div>
       </section>
     </main>
