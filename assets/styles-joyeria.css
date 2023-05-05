@@ -9,8 +9,9 @@
 }
 
 header {
-  background-color: rgb(24, 24, 50);
+  background-color: rgb(12, 12, 24);
   box-shadow: 0 20px 40px rgba(50, 49, 62, 0.3);
+
   display: flex;
   width: 100%;
   height: 100%;
@@ -27,6 +28,8 @@ header {
   font-weight: 900;
   gap: 150px;
   margin-left: 0%;
+  border-bottom: solid 2px;
+  border-color: rgba(255, 255, 255, 0.165);
 }
 
 .leyenda-logo {
@@ -72,6 +75,8 @@ header {
 
   border-radius: 30% / 50% 0 90% 50%;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border-bottom: solid 2px;
+  border-color: rgba(255, 255, 255, 0.165);
 }
 .navbar-list {
   padding: 20px;
@@ -177,12 +182,14 @@ main {
 }
 .descubre {
   color: white;
-  background-color: rgb(24, 24, 50);
+  background-color: rgba(24, 24, 50, 0);
   border-radius: 100% / 100% 0% 100% 10%;
   font-size: 18px;
   padding: 20px;
   border: none;
   font-weight: 900;
+  border: solid;
+  border-color: white;
 }
 .descubre > a {
   color: white;
@@ -383,8 +390,11 @@ main {
   font-weight: 700;
 }
 .comenza {
-  background-color: rgba(80, 80, 80, 0.9);
+  background-color: rgba(80, 80, 80, 0);
   font-weight: 900;
+  border: solid;
+  border-color: white;
+  color: white;
 }
 .comenza:hover {
   background-color: white;
@@ -420,20 +430,22 @@ main {
   gap: 10px;
 }
 .btn-todos {
-  background-color: rgba(80, 80, 80, 0.9);
+  background-color: rgba(80, 80, 80, 0);
   border-radius: 10px;
-  border: none;
+  border: solid;
+  border-color: white;
+  color: white;
+}
+.btn-todos:hover {
+  background-color: white;
+  color: rgb(24, 24, 50);
 }
 .btn-todos > a {
   color: white;
   border-radius: 10px;
-  border: none;
-  padding: 0 5px;
-  margin-left: 10px;
-  margin-right: 10px;
   font-weight: 900;
 }
-.btn-todos > a:hover {
+.btn-todos > a {
   color: rgb(24, 24, 50);
 }
 .oro {
@@ -442,9 +454,10 @@ main {
   gap: 10px;
 }
 .btn-oro {
-  background-color: rgba(80, 80, 80, 0.9);
+  background-color: rgba(80, 80, 80, 0);
   border-radius: 10px;
-  border: none;
+  border: solid;
+  border-color: white;
 }
 .btn-oro > a {
   color: white;
@@ -469,9 +482,10 @@ main {
   gap: 10px;
 }
 .btn-plata {
-  background-color: rgba(80, 80, 80, 0.9);
+  background-color: rgba(80, 80, 80, 0);
   border-radius: 10px;
-  border: none;
+  border: solid;
+  border-color: white;
 }
 .btn-plata > a {
   color: white;
@@ -491,9 +505,10 @@ main {
   gap: 10px;
 }
 .btn-platino {
-  background-color: rgba(80, 80, 80, 0.9);
+  background-color: rgba(80, 80, 80, 0);
   border-radius: 10px;
-  border: none;
+  border: solid;
+  border-color: white;
 }
 .btn-platino > a {
   color: white;
@@ -513,9 +528,10 @@ main {
   gap: 10px;
 }
 .btn-combinados {
-  background-color: rgba(80, 80, 80, 0.9);
+  background-color: rgba(80, 80, 80, 0);
   border-radius: 10px;
-  border: none;
+  border: solid;
+  border-color: white;
 }
 .btn-combinados > a {
   color: white;
@@ -623,6 +639,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 60px;
 }
 .offer-time {
   display: flex;
@@ -637,7 +654,6 @@ main {
 .btn-add {
   background-color: rgba(50, 49, 62, 0);
   border-radius: 10px;
-  padding: 5px 0px;
   width: 100%;
   border: none;
   font-size: 18px;
@@ -658,8 +674,6 @@ main {
   background-color: rgb(24, 24, 50);
   color: white;
   border-radius: 10px;
-  padding: 5px 20px;
-  width: 100%;
   border: none;
 }
 
