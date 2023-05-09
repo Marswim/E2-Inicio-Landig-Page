@@ -198,22 +198,15 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
   background-color: rgb(12, 12, 24);
-  margin: 0%;
+  padding-bottom: 10px;
 }
-.descrition-container {
-  position: relative;
+.description-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(80, 80, 80, 0.9);
-  z-index: 2;
-  width: 100%;
-  max-width: 50%;
 }
+
 .description,
 .back-description {
   position: absolute;
-  max-width: 50%;
 }
 .back-description {
   width: 100%;
@@ -223,30 +216,30 @@ nav a:hover {
   width: 83%;
   opacity: 0.3;
   border-bottom-right-radius: 60% 20%;
+
   z-index: 1;
 }
 .description {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: rgba(80, 80, 80, 0.794);
   border: solid 2px rgba(255, 255, 255, 0.649);
   border-left: none;
   border-right: none;
   color: #fff;
-  padding: 80px;
-  padding-top: 20px;
+  padding: 120px;
+  padding-top: 40px;
   gap: 40px;
   max-width: 50%;
-  height: 65.5%;
   border-radius: 0px 20px 20px 0px;
   border-bottom-right-radius: 60% 20%;
 }
 .description h1 {
   font-size: 36px;
   width: 100%;
-  min-width: 500px;
+  min-width: 300px;
   font-weight: 900;
 }
 .description h1 > span {
@@ -254,13 +247,13 @@ nav a:hover {
   color: rgb(24, 24, 50);
   font-size: 36px;
   width: 100%;
-  min-width: 500px;
+  min-width: 300px;
   font-weight: 900;
 }
 .description p {
   font-size: 20px;
   width: 100%;
-  min-width: 500px;
+  min-width: 300px;
   font-weight: 300;
 }
 .description p > span {
@@ -281,9 +274,7 @@ nav a:hover {
   border-right: 1px;
   border-color: rgba(12, 12, 24, 0.927);
   cursor: pointer;
-  position: absolute;
-  bottom: 3px;
-  margin-bottom: 80px;
+  margin-left: 450px;
 }
 .descubre > a {
   color: white;
@@ -405,7 +396,7 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .info-intro {
   display: flex;
@@ -413,7 +404,7 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   color: white;
-  padding: 40px;
+  padding: 20px;
   gap: 40px;
 }
 .info-intro p {
@@ -459,6 +450,8 @@ nav a:hover {
 
 /*explore section */
 #explora {
+  display: flex;
+  margin-top: 40px;
   padding: 60px 0;
 }
 .explora-info {
