@@ -7,6 +7,9 @@
   text-decoration: none;
   list-style: none;
 }
+body {
+  background-color: rgb(12, 12, 24);
+}
 
 header {
   background-color: rgb(12, 12, 24);
@@ -28,8 +31,8 @@ header {
   border-color: rgba(255, 255, 255, 0.165);
   background: linear-gradient(
     to bottom,
-    rgb(21, 21, 42),
-    rgba(10, 10, 20, 0.872)
+    rgb(9, 9, 19),
+    rgba(23, 23, 45, 0.774)
   );
 }
 
@@ -192,7 +195,7 @@ nav a:hover {
 .Joyas {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: rgb(12, 12, 24);
   margin: 0%;
 }
 .description {
