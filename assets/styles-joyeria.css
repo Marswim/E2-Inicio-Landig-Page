@@ -24,15 +24,15 @@ header {
   padding: 0px 5px;
   font-size: 1.2rem;
   font-weight: 900;
-  gap: 150px;
+  gap: 120px;
   margin-left: 0%;
   margin-top: 0;
-  border-bottom: solid 2px;
+  border-bottom: solid 3px;
   border-color: rgba(255, 255, 255, 0.165);
   background: linear-gradient(
     to bottom,
     rgb(9, 9, 19),
-    rgba(23, 23, 45, 0.774)
+    rgba(41, 41, 80, 0.774)
   );
 }
 
@@ -43,7 +43,7 @@ header {
   align-items: center;
   text-align: center;
   text-justify: distribute;
-  padding: 30px;
+  padding: 5px;
   padding-left: 0;
   gap: 3px;
   margin-left: 0;
@@ -71,7 +71,7 @@ header {
   height: 200px;
   border-radius: 30% / 50% 0 90% 50%;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-  border-bottom: solid 2px;
+  border-bottom: solid 3px;
   border-color: rgba(255, 255, 255, 0.165);
   padding: 0;
   padding-right: 80px;
@@ -83,7 +83,7 @@ header {
   justify-content: flex-start;
   background-color: rgba(80, 80, 80, 0.9);
   color: #fff;
-  gap: 20px;
+  gap: 30px;
   align-items: center;
   text-align: center;
   width: 100%;
@@ -91,7 +91,7 @@ header {
   padding-left: 80px;
   border-radius: 30% / 50% 0 90% 50%;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-  border-bottom: solid 2px;
+  border-bottom: solid 3px;
   border-color: rgba(255, 255, 255, 0.165);
   margin: 0;
   margin-top: 0;
@@ -116,12 +116,14 @@ nav a:hover {
 .navbar-list li:first-child > a {
   color: azure;
   font-weight: 900;
+  justify-content: left;
 }
 #menu-toggle {
   display: none;
 }
 .navbar i {
   font-size: 50px;
+  padding-left: 20px;
   display: none;
 }
 @media (max-width: 576px) {
@@ -198,6 +200,29 @@ nav a:hover {
   background-color: rgb(12, 12, 24);
   margin: 0%;
 }
+.descrition-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(80, 80, 80, 0.9);
+  z-index: 2;
+  width: 100%;
+  max-width: 50%;
+}
+.description,
+.back-description {
+  position: absolute;
+  max-width: 50%;
+}
+.back-description {
+  width: 100%;
+  max-width: 60%;
+}
+.back-description img {
+  width: 83%;
+  z-index: 1;
+}
 .description {
   display: flex;
   flex-direction: column;
@@ -205,11 +230,11 @@ nav a:hover {
   align-items: center;
   background-color: rgba(80, 80, 80, 0.9);
   color: #fff;
-  padding: 40px;
+  padding: 80px;
   padding-top: 20px;
-  padding-bottom: 20px;
   gap: 40px;
   max-width: 50%;
+  height: 65.5%;
 }
 .description h1 {
   font-size: 36px;
@@ -245,7 +270,9 @@ nav a:hover {
   border: none;
   font-weight: 900;
   border: solid 2px;
-  border-color: rgba(255, 255, 255, 0.625);
+  border-top: 1px;
+  border-right: 1px;
+  border-color: rgba(12, 12, 24, 0.927);
   cursor: pointer;
 }
 .descubre > a {
@@ -254,6 +281,8 @@ nav a:hover {
 }
 .descubre:hover {
   background-color: white;
+  border-color: white;
+  border: none;
   color: rgb(24, 24, 50);
   font-weight: 900;
 }
@@ -470,7 +499,7 @@ nav a:hover {
   align-items: center;
   padding: 40px;
   width: 100%;
-  gap: 40px;
+  gap: 120px;
 }
 .material-categories h2 {
   text-align: center;
@@ -480,7 +509,7 @@ nav a:hover {
 .categories {
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 120px;
 }
 .todos {
   display: flex;
