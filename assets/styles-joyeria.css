@@ -281,6 +281,9 @@ nav a:hover {
   border-right: 1px;
   border-color: rgba(12, 12, 24, 0.927);
   cursor: pointer;
+  position: absolute;
+  bottom: 3px;
+  margin-bottom: 80px;
 }
 .descubre > a {
   color: white;
