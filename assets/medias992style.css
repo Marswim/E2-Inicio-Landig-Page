@@ -1,11 +1,13 @@
 @media (max-width: 992px) {
+  .navbar {
+    padding-left: 5%;
+  }
   .navbar-list {
     position: absolute;
     top: 200px;
-    left: 35%;
-
+    left: 55%;
     bottom: 300px;
-    width: 40%;
+    width: 30%;
     height: 50%;
     flex-direction: column;
     align-items: center;
@@ -17,6 +19,7 @@
     background-color: rgba(80, 80, 80, 0.98);
     z-index: 3;
   }
+
   .navbar ul {
     display: none;
   }
@@ -26,5 +29,77 @@
   }
   #menu-toggle:checked ~ .navbar-list {
     display: flex;
+  }
+  .back-description {
+    padding-top: 330px;
+  }
+  .back-description img {
+    border-bottom-right-radius: 66% 34%;
+  }
+  .info-cards-container {
+    max-width: 100%;
+    gap: 40px;
+  }
+  .explora-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+  }
+  .explora-info h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .material-categories {
+    gap: 40px;
+  }
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    width: 80%;
+  }
+  .product-oro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+  }
+  .oro-00 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    margin: 0px;
+    padding: 20px;
+  }
+
+  .oro-01 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    margin: 0px;
+    padding: 20px;
+  }
+  .oro-02 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    margin: 0px;
+    padding: 20px;
   }
 }
