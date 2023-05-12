@@ -30,6 +30,9 @@
   #menu-toggle:checked ~ .navbar-list {
     display: flex;
   }
+  .cart {
+    width: 35%;
+  }
   .back-description {
     padding-top: 330px;
   }
