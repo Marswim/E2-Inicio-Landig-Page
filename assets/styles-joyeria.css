@@ -1048,7 +1048,7 @@ footer {
   background-color: rgba(80, 80, 80, 0.9);
   margin-top: 120px;
   padding: 10px 120px 10px;
-  border-radius: 30% / 50% 0 0% 0%;
+  border-radius: 60% / 50% 0 0% 0%;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
   border-top: solid 3px;
   border-color: rgba(255, 255, 255, 0.165);
@@ -1061,7 +1061,7 @@ footer {
   align-items: center;
   text-align: center;
   text-justify: distribute;
-  padding-top: 60px;
+  padding-top: 80px;
 }
 .list-footer {
   display: flex;
@@ -1069,7 +1069,8 @@ footer {
   gap: 40px;
   color: white;
   font-size: 18px;
-  margin-bottom: 120px;
+  padding-top: 20px;
+  margin-bottom: 100px;
 }
 .items-footer {
   color: white;
@@ -1095,5 +1096,5 @@ footer {
 .leyenda-logo-footer img {
   position: absolute;
   width: 50px;
-  bottom: 100px;
+  bottom: 90px;
 }
