@@ -277,10 +277,7 @@ nav a:hover {
   cursor: pointer;
   margin-left: 400px;
 }
-.descubre > a {
-  color: white;
-  font-weight: 700;
-}
+
 .descubre:hover {
   background-color: white;
   border-color: white;
@@ -1045,6 +1042,58 @@ li {
   width: 30%;
 }
 footer {
-  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: rgba(80, 80, 80, 0.9);
+  margin-top: 120px;
+  padding: 10px 120px 10px;
+  border-radius: 30% / 50% 0 0% 0%;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border-top: solid 3px;
+  border-color: rgba(255, 255, 255, 0.165);
   color: white;
+}
+.leyenda-logo-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  text-justify: distribute;
+  padding-top: 60px;
+}
+.list-footer {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 120px;
+}
+.items-footer {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 100% / 100% 0% 100% 10%;
+  font-size: 18px;
+  padding: 5px 20px;
+  border: none;
+  border: solid 2px;
+  border-top: 1px;
+  border-right: 1px;
+  border-color: rgba(12, 12, 24, 0.927);
+  cursor: pointer;
+}
+.items-footer:hover {
+  background-color: white;
+  border-color: white;
+  border: none;
+  color: rgb(24, 24, 50);
+  font-weight: 900;
+}
+
+.leyenda-logo-footer img {
+  position: absolute;
+  width: 50px;
+  bottom: 100px;
 }
