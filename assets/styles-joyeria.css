@@ -82,7 +82,12 @@ header {
   border-radius: 30% / 50% 0 90% 50%;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
   border-bottom: solid 3px;
-  border-color: rgba(255, 255, 255, 0.165);
+  border-color: linear-gradient(
+    0deg,
+    rgba(83, 66, 27, 1) 0%,
+    rgb(246, 212, 64) 28%,
+    rgba(82, 72, 52, 1) 100%
+  );
   padding: 0;
   padding-right: 80px;
   margin: 0;
@@ -102,7 +107,12 @@ header {
   border-radius: 30% / 50% 0 90% 50%;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
   border-bottom: solid 3px;
-  border-color: rgba(255, 255, 255, 0.165);
+  border-color: linear-gradient(
+    0deg,
+    rgba(83, 66, 27, 1) 0%,
+    rgb(246, 212, 64) 28%,
+    rgba(82, 72, 52, 1) 100%
+  );
   margin: 0;
   margin-top: 0;
 }
@@ -1051,7 +1061,7 @@ footer {
   border-radius: 60% / 50% 0 0% 0%;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
   border-top: solid 3px;
-  border-color: rgba(255, 255, 255, 0.165);
+  border-color: rgb(255, 255, 255);
   color: white;
 }
 .leyenda-logo-footer {
