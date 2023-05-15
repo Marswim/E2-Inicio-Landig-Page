@@ -30,6 +30,9 @@
   .cart {
     top: 160px;
   }
+  .navbar {
+    padding: 0px;
+  }
   .navbar ul {
     top: 160px;
     width: 50%;
@@ -112,6 +115,13 @@
     padding: 20px;
   }
   /*contacto*/
+  .contact {
+    padding-right: 20px;
+  }
+  .contact-us {
+    width: 576px;
+    margin: 0px;
+  }
   .items-redes,
   .items-contacto {
     gap: 5px;
@@ -128,18 +138,22 @@
     position: absolute;
     z-index: 0;
     opacity: 0.4;
-    top: -60%;
-    right: 20px;
-    left: -100px;
+    width: 100%;
   }
   .imagen-contacto img {
-    width: 1200px;
-    height: 600px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    height: auto;
+    max-width: 100%;
+    padding: 20px;
   }
   /*footer*/
 
   footer {
     padding-left: 0px;
+    margin: 0px;
+    margin-top: 40px;
     height: 160px;
   }
   .leyenda-logo-footer img {
@@ -147,6 +161,7 @@
     width: 100px;
     margin: 0px;
     bottom: 65px;
+    left: 40px;
     padding-left: 25px;
   }
   .texto-logo {
