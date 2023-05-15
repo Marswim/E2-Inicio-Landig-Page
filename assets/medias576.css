@@ -64,6 +64,11 @@
     margin-left: 50px;
     padding: 20px;
   }
+  .info-intro {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
   .products {
     margin: 0px;
     padding: 0px;

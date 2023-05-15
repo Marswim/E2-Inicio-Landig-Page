@@ -98,7 +98,7 @@
     align-items: flex-start;
     width: 100%;
     margin: 0px;
-    padding: 0px;
+    padding: 10px;
     gap: 20px;
   }
   .oro-00 {
@@ -108,7 +108,6 @@
     align-items: center;
     width: 45%;
     margin: 0px;
-    padding: 20px;
   }
 
   .oro-01 {
@@ -118,7 +117,6 @@
     align-items: center;
     width: 45%;
     margin: 0px;
-    padding: 20px;
   }
   .oro-02 {
     display: flex;
@@ -127,7 +125,6 @@
     align-items: center;
     width: 45%;
     margin: 0px;
-    padding: 20px;
   }
   .datos-desarrollador {
     display: flex;
