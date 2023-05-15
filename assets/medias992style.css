@@ -129,8 +129,22 @@
     margin: 0px;
     padding: 20px;
   }
+  .datos-desarrollador {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .datos-desarrollador img {
+    width: 10%;
+    border-radius: 5px;
+  }
   .imagen-contacto img {
     width: 1600px;
     height: 100%;
+  }
+  .leyenda-logo-footer img {
+    position: absolute;
+    width: 80px;
+    bottom: 80px;
   }
 }

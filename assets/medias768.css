@@ -1,0 +1,150 @@
+@media (max-width: 768px) {
+  header {
+    height: 160px;
+  }
+  #logo-joyeria {
+    margin-left: 100px;
+  }
+  .navbar {
+    padding-right: 20px;
+    height: 160px;
+    gap: 60px;
+  }
+
+  .cart {
+    top: 160px;
+  }
+  .navbar ul {
+    top: 160px;
+  }
+  .descubre {
+    font-size: 18px;
+    padding: 20px;
+
+    margin-left: 200px;
+  }
+  .back-description {
+    display: flex;
+    position: absolute;
+    top: 280px;
+  }
+  .back-description img {
+    height: 490px;
+    border-bottom-right-radius: 55% 30%;
+  }
+  .joya-card-creator img {
+    width: 15%;
+    border-radius: 5px;
+  }
+  .info-cards-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .products-container {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .product-oro {
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+  }
+  .product-oro-anillo {
+    padding: 10px;
+    gap: 10px;
+  }
+  #img-oro-00 {
+    width: 60%;
+  }
+  #img-oro-00:hover {
+    transform: scale(1.3);
+    transition: transform 0.2s ease-in-out;
+  }
+  .product-oro-collar {
+    padding: 10px;
+    gap: 10px;
+  }
+  #img-oro-01 {
+    width: 60%;
+  }
+  #img-oro-01:hover {
+    transform: scale(1.3);
+    transition: transform 0.2s ease-in-out;
+  }
+  .product-oro-02 {
+    padding: 10px;
+    gap: 10px;
+  }
+  #img-oro-02 {
+    width: 60%;
+  }
+  #img-oro-02:hover {
+    transform: scale(1.3);
+    transition: transform 0.2s ease-in-out;
+  }
+  .product-info {
+    gap: 10px;
+  }
+  .top-info p {
+    padding: 0 10px;
+  }
+  .datos-desarrollador {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .datos-desarrollador img {
+    width: 10%;
+    border-radius: 5px;
+  }
+  .offer-time img {
+    width: 20%;
+  }
+  .btn-add > a {
+    border-radius: 10px;
+    padding: 3px 10px;
+  }
+  .contact-us {
+    padding: 0px 20px;
+  }
+
+  .contacto {
+    gap: 5px;
+  }
+  #logo-02 {
+    position: absolute;
+    width: 50%;
+    z-index: 2;
+    left: 165px;
+  }
+  .contact-00 {
+    width: 100%;
+  }
+  .leyenda-logo-footer img {
+    position: absolute;
+    width: 80px;
+    bottom: 90px;
+  }
+  .list-footer {
+    gap: 10px;
+
+    padding-top: 10px;
+    margin-bottom: 100px;
+  }
+  .items-footer {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 100% / 100% 0% 100% 10%;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    border: solid 2px;
+    border-top: 1px;
+    border-right: 1px;
+    border-color: rgba(12, 12, 24, 0.927);
+    cursor: pointer;
+  }
+}
