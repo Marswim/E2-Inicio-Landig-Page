@@ -135,6 +135,12 @@
     width: 10%;
     border-radius: 5px;
   }
+  #logo-02 {
+    position: absolute;
+    width: 50%;
+    z-index: 2;
+    left: 200px;
+  }
   .imagen-contacto img {
     width: 1600px;
     height: 100%;
