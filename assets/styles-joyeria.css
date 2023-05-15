@@ -1081,7 +1081,7 @@ footer {
   position: relative;
   background-color: rgba(80, 80, 80, 0.9);
   margin-top: 120px;
-  padding: 10px 120px 10px;
+  padding: 10px 60px 10px 120px;
   border-radius: 60% / 50% 0 0% 0%;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
   border-top: solid 3px;
