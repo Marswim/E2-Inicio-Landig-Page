@@ -64,4 +64,107 @@
     margin-left: 50px;
     padding: 20px;
   }
+  .products {
+    margin: 0px;
+    padding: 0px;
+  }
+  .products-container {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+  }
+  .product-oro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  .product-oro {
+    width: 100%;
+    padding: 0px;
+    gap: 10px;
+  }
+  .oro-00 {
+    width: 80%;
+  }
+  .product-oro-anillo {
+    padding: 20px;
+  }
+  .oro-01 {
+    width: 80%;
+  }
+  .product-oro-collar {
+    padding: 20px;
+  }
+  .oro-02 {
+    width: 80%;
+  }
+  .product-oro-02 {
+    padding: 20px;
+  }
+  /*contacto*/
+  .items-redes,
+  .items-contacto {
+    gap: 5px;
+  }
+  #logo-02 {
+    position: absolute;
+    width: 40%;
+    top: 120px;
+    z-index: 2;
+    left: 120px;
+    display: none;
+  }
+  .imagen-contacto {
+    position: absolute;
+    z-index: 0;
+    opacity: 0.4;
+    top: -60%;
+    right: 20px;
+    left: -100px;
+  }
+  .imagen-contacto img {
+    width: 1200px;
+    height: 600px;
+  }
+  /*footer*/
+
+  footer {
+    padding-left: 0px;
+  }
+  .leyenda-logo-footer img {
+    position: absolute;
+    width: 90px;
+    margin: 0px;
+    bottom: 165px;
+    padding-left: 25px;
+  }
+  .texto-logo {
+    margin-left: 20px;
+  }
+  .list-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+    margin-bottom: 110px;
+  }
+  .items-footer {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 100% / 100% 0% 100% 10%;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    border: solid 2px;
+    border-top: 1px;
+    border-right: 1px;
+    border-color: rgba(12, 12, 24, 0.927);
+    cursor: pointer;
+  }
 }
