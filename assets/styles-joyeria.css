@@ -485,11 +485,15 @@ nav a:hover {
   display: flex;
   justify-content: center;
   padding: 40px;
+  gap: 20px;
 }
 .explora-info h2 {
   color: white;
   width: 60%;
   font-size: 32px;
+  height: 100%;
+  line-height: 2;
+  border-right: solid 2px white;
 }
 .explora-pasos-seleccion {
   display: flex;
