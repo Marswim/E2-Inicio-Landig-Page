@@ -1,0 +1,454 @@
+/*MEDIAQUERIES*/
+
+@media (max-width: 1200px) {
+  .navbar {
+    padding-left: 5%;
+  }
+  .navbar-list {
+    position: absolute;
+    top: 200px;
+    left: 55%;
+    bottom: 300px;
+    width: 30%;
+    height: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: start;
+    gap: 1px;
+    padding: 20px;
+
+    background-color: rgba(80, 80, 80, 0.98);
+    z-index: 3;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+  .navbar i {
+    display: block;
+    z-index: 3;
+  }
+  #menu-toggle:checked ~ .navbar-list {
+    display: flex;
+  }
+  .cart {
+    width: 35%;
+  }
+  #logo-joyeria {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    height: 25%;
+    padding: 5px;
+    margin-left: 150px;
+  }
+  .Joyas {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .description-container {
+    width: 80%;
+  }
+  .back-description {
+    display: flex;
+    position: absolute;
+    padding-top: 5px;
+  }
+  .back-description img {
+    border-bottom-right-radius: 60% 25%;
+    height: 500px;
+  }
+  .joya-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 100px;
+  }
+  .joya-card-info {
+    padding: 40px;
+  }
+  .info-intro p {
+    width: 80%;
+    font-size: 20px;
+    text-align: justify;
+    font-size: 22px;
+  }
+  .info-intro h2 {
+    font-size: 32px;
+  }
+  /* section cards */
+  #cards {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .info-cards-container {
+    max-width: 100%;
+    gap: 40px;
+  }
+  .info-card {
+    background-color: rgba(80, 80, 80, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    font-weight: 700px;
+  }
+  .info-card p {
+    line-height: 1.05;
+  }
+  #explora {
+    align-items: center;
+  }
+  .explora-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 22px;
+  }
+
+  .explora-info h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .explora-pasos-seleccion p {
+    font-size: 20px;
+  }
+  .material-categories {
+    gap: 40px;
+  }
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    width: 60%;
+  }
+  .categories img {
+    width: 150px;
+    height: 140px;
+  }
+  .product-oro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+  }
+  .oro-00 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    margin: 0px;
+    padding: 30px;
+  }
+
+  .oro-01 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    margin: 0px;
+    padding: 30px;
+  }
+  .oro-02 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    margin: 0px;
+    padding: 30px;
+  }
+
+  /* section-contact */
+  .contact {
+    padding-top: 80px;
+  }
+  .contact-us {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 0px 40px;
+    color: white;
+    width: 100%;
+  }
+  .social-networks {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 15px;
+    position: relative;
+    z-index: 5;
+  }
+  .social-networks h2 {
+    color: #c0c0c0;
+    background-image: linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgb(255, 255, 255) 100%
+    );
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+  }
+  .items-redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
+  }
+  li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .red-social-00 i {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    font-size: 22px;
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 50%;
+  }
+  .red-social-00 a {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }
+  .red-social-01 i {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    font-size: 22px;
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 50%;
+  }
+  .red-social-01 a {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }
+  .red-social-02 i {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    font-size: 22px;
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 50%;
+  }
+  .red-social-02 a {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }
+  .red-social-03 i {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    font-size: 22px;
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 50%;
+  }
+  .red-social-03 a {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    position: relative;
+    z-index: 5;
+    gap: 10px;
+  }
+  .contacto h2 {
+    color: #c0c0c0;
+
+    background-image: linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgb(255, 255, 255) 100%
+    );
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+  }
+  .items-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
+  }
+  .contact-00 i {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-size: 22px;
+    padding: 5px;
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 50%;
+  }
+  .contact-00 a {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }
+  .contact-01 i {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-size: 22px;
+    padding: 5px;
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 50%;
+  }
+  .contact-01 a {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }
+  .contact-02 i {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-size: 22px;
+    padding: 5px;
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 50%;
+  }
+  .contact-02 a {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }
+  .contact-03 i {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-size: 22px;
+    padding: 5px;
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 50%;
+  }
+  .contact-03 a {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .imagen-contacto {
+    position: absolute;
+    z-index: 0;
+    opacity: 0.4;
+    top: -40%;
+    right: 0px;
+  }
+  .imagen-contacto img {
+    width: 1600px;
+    height: 600px;
+  }
+  #logo-02 {
+    position: relative;
+    opacity: none;
+    z-index: 6;
+    width: 30%;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: rgba(80, 80, 80, 0.9);
+    margin-top: 160px;
+    padding: 10px 20px 10px 60px;
+    border-radius: 60% / 50% 0 0% 0%;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    border-top: solid 3px;
+    border-color: rgb(255, 255, 255);
+    color: white;
+  }
+  .leyenda-logo-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    text-justify: distribute;
+    padding-top: 80px;
+  }
+  .list-footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+    margin-bottom: 100px;
+  }
+  .items-footer {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 100% / 100% 0% 100% 10%;
+    font-size: 18px;
+    padding: 5px 20px;
+    border: none;
+    border: solid 2px;
+    border-top: 1px;
+    border-right: 1px;
+    border-color: rgba(12, 12, 24, 0.927);
+    cursor: pointer;
+  }
+  .items-footer:hover {
+    background-color: white;
+    border-color: white;
+    border: none;
+    color: rgb(24, 24, 50);
+    font-weight: 900;
+  }
+
+  .leyenda-logo-footer img {
+    position: absolute;
+    width: 50px;
+    bottom: 90px;
+  }
+}

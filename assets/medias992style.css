@@ -33,12 +33,36 @@
   .cart {
     width: 35%;
   }
+  #logo-joyeria {
+    margin-left: 140px;
+  }
+
+  .Joyas {
+    gap: 20px;
+  }
+  .description {
+    width: 100%;
+    padding: 70px;
+  }
+  .descubre {
+    font-size: 18px;
+    padding: 20px;
+
+    margin-left: 300px;
+  }
   .back-description {
-    padding-top: 330px;
+    display: flex;
+    position: absolute;
+    padding-top: 0px;
   }
   .back-description img {
-    border-bottom-right-radius: 66% 34%;
+    height: 493px;
+    border-bottom-right-radius: 55% 30%;
   }
+  .joya-card-info {
+    padding: 20px;
+  }
+
   .info-cards-container {
     max-width: 100%;
     gap: 40px;
@@ -104,5 +128,9 @@
     width: 45%;
     margin: 0px;
     padding: 20px;
+  }
+  .imagen-contacto img {
+    width: 1600px;
+    height: 100%;
   }
 }
