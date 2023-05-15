@@ -86,7 +86,7 @@
   .product-oro {
     width: 100%;
     padding: 0px;
-    gap: 10px;
+    gap: 40px;
   }
   .oro-00 {
     width: 80%;
@@ -135,12 +135,13 @@
 
   footer {
     padding-left: 0px;
+    height: 160px;
   }
   .leyenda-logo-footer img {
     position: absolute;
-    width: 90px;
+    width: 100px;
     margin: 0px;
-    bottom: 165px;
+    bottom: 65px;
     padding-left: 25px;
   }
   .texto-logo {
@@ -151,7 +152,7 @@
     flex-direction: column;
     gap: 10px;
     padding-top: 10px;
-    margin-bottom: 110px;
+    margin-bottom: 20px;
   }
   .items-footer {
     text-align: center;
