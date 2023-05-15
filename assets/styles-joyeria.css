@@ -94,19 +94,25 @@ header {
   0% {
     border-bottom: solid 3px #fff;
     border-radius: 30% / 50% 0 90% 50%;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
   }
   50% {
     border-bottom: 2px solid #f7e702;
     border-radius: 30% / 50% 0 90% 50%;
+    box-shadow: 0 15px 30px rgba(143, 135, 0, 0.3);
   }
   100% {
     border-bottom: 3px solid #fff;
     border-radius: 30% / 50% 0 90% 50%;
+    box-shadow: 0 10px 20px rgba(255, 242, 0, 0.3);
   }
 }
 
 /* animación al contenedor navbar completo */
 .navbar:hover {
+  animation: destello 2s infinite;
+}
+.navbar-list:hover {
   animation: destello 2s infinite;
 }
 
