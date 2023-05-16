@@ -346,7 +346,7 @@ nav a:hover {
 }
 #anillo-principal:hover {
   transform: scale(1.3);
-  transition: transform 0.2s ease-in-out;
+  transition: transform 1.5s ease-in-out;
 }
 .joya-card-info {
   display: flex;
@@ -713,7 +713,7 @@ nav a:hover {
 }
 #img-oro-00:hover {
   transform: scale(1.3);
-  transition: transform 0.2s ease-in-out;
+  transition: transform 1s ease-in-out;
 }
 .product-info {
   color: white;
@@ -834,7 +834,7 @@ nav a:hover {
 }
 #img-oro-01:hover {
   transform: scale(1.3);
-  transition: transform 0.2s ease-in-out;
+  transition: transform 1s ease-in-out;
 }
 .oro-02 {
   display: flex;
@@ -869,7 +869,7 @@ nav a:hover {
 }
 #img-oro-02:hover {
   transform: scale(1.3);
-  transition: transform 0.2s ease-in-out;
+  transition: transform 1s ease-in-out;
 }
 /* segunda linea de productos-plata*/
 .product-plata {
@@ -910,7 +910,7 @@ nav a:hover {
 }
 #img-plata-00:hover {
   transform: scale(1.3);
-  transition: transform 0.2s ease-in-out;
+  transition: transform 1s ease-in-out;
 }
 .plata-01 {
   display: flex;
@@ -944,7 +944,7 @@ nav a:hover {
 }
 #img-plata-01:hover {
   transform: scale(1.3);
-  transition: transform 0.2s ease-in-out;
+  transition: transform 1s ease-in-out;
 }
 .plata-02 {
   display: flex;
@@ -978,7 +978,7 @@ nav a:hover {
 }
 #img-plata-02:hover {
   transform: scale(1.3);
-  transition: transform 0.2s ease-in-out;
+  transition: transform 1s ease-in-out;
 }
 
 /* section-contact */
