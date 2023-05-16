@@ -389,11 +389,14 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 10px;
+  gap: 5px;
   align-items: start;
   color: rgb(24, 24, 50);
   font-size: 16px;
   font-weight: 600;
+}
+.creator-info {
+  font-size: 18px;
 }
 .red-social {
   color: rgb(24, 24, 50);

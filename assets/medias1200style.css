@@ -60,6 +60,19 @@
     border-bottom-right-radius: 60% 25%;
     height: 500px;
   }
+  .creator-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: start;
+    color: rgb(24, 24, 50);
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .creator-info {
+    font-size: 18px;
+  }
   .joya-card {
     display: flex;
     justify-content: center;
