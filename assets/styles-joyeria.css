@@ -658,6 +658,10 @@ nav a:hover {
   font-weight: 900;
 }
 /* productos */
+#products {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 .products-container {
   display: flex;
   justify-content: space-between;
