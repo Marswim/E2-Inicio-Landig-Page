@@ -279,11 +279,10 @@ nav a:hover {
   border-radius: 100% / 100% 0% 100% 10%;
   font-size: 18px;
   padding: 20px;
-  border: none;
   font-weight: 900;
   border: solid 2px;
-  border-top: 1px;
-  border-right: 1px;
+  border-top: none;
+  border-right: none;
   border-color: rgba(12, 12, 24, 0.927);
   cursor: pointer;
   margin-left: 400px;
@@ -291,11 +290,13 @@ nav a:hover {
 
 .descubre:hover {
   background-color: rgba(255, 255, 255, 0.703);
+  border: solid 2px;
+  border-top: none;
+  border-right: none;
   border-color: rgba(255, 255, 255, 0.746);
-  border: none;
   color: rgb(24, 24, 50);
   font-weight: 900;
-  transition: all 0.2s ease;
+  transition: all 0.5s ease;
 }
 .back-description {
   display: flex;
