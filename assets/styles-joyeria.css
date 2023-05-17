@@ -530,6 +530,7 @@ nav a:hover {
   background-color: white;
   color: rgb(24, 24, 50);
   font-weight: 900;
+  transition: all 1s ease;
 }
 /*proceso de seleccion */
 #material {
@@ -702,6 +703,7 @@ nav a:hover {
 
 .nuevo-lanzamiento p > a:hover {
   color: rgb(0, 0, 0);
+  transition: all 1s ease;
 }
 
 .nuevo-lanzamiento img {
@@ -747,6 +749,10 @@ nav a:hover {
   border-width: 5px;
   border-style: double;
   gap: 20px;
+}
+.oro-00:hover {
+  background-color: rgb(0, 0, 0);
+  transition: all 2s ease;
 }
 .product-oro-anillo {
   display: flex;
@@ -871,6 +877,10 @@ nav a:hover {
   border-style: double;
   gap: 20px;
 }
+.oro-01:hover {
+  background-color: rgb(0, 0, 0);
+  transition: all 2s ease;
+}
 .product-oro-collar {
   display: flex;
   flex-direction: column;
@@ -905,6 +915,10 @@ nav a:hover {
   border-width: 5px;
   border-style: double;
   gap: 20px;
+}
+.oro-02:hover {
+  background-color: rgb(0, 0, 0);
+  transition: all 2s ease;
 }
 .product-oro-02 {
   display: flex;
@@ -948,6 +962,10 @@ nav a:hover {
   border-style: double;
   gap: 20px;
 }
+.plata-00:hover {
+  background-color: rgb(0, 0, 0);
+  transition: all 2s ease;
+}
 .product-plata-00 {
   display: flex;
   flex-direction: column;
@@ -982,6 +1000,10 @@ nav a:hover {
   border-style: double;
   gap: 20px;
 }
+.plata-01:hover {
+  background-color: rgb(0, 0, 0);
+  transition: all 2s ease;
+}
 .product-plata-01 {
   display: flex;
   flex-direction: column;
@@ -1015,6 +1037,10 @@ nav a:hover {
   border-width: 5px;
   border-style: double;
   gap: 20px;
+}
+.plata-02:hover {
+  background-color: rgb(0, 0, 0);
+  transition: all 2s ease;
 }
 .product-plata-02 {
   display: flex;
