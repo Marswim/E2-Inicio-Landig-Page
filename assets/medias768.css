@@ -45,6 +45,60 @@
     width: 300px;
     height: 320px;
   }
+  /*NUEVO-LANZAMIENTO*/
+  .seccion-lanzamiento {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+  }
+
+  .nuevo-lanzamiento {
+    display: flex;
+    position: relative;
+  }
+  .contenedor-parrafo {
+    position: absolute;
+    background-color: rgba(80, 80, 80, 0.427);
+    width: 100%;
+    height: 120px;
+  }
+  .nuevo-lanzamiento p {
+    position: absolute;
+    color: white;
+    font-weight: 900;
+    font-size: 60px;
+    margin-left: 40px;
+    padding-bottom: 0px;
+    padding-right: 80px;
+    margin-bottom: 0px;
+    border-bottom: solid 2px black;
+    line-height: 0.8;
+    top: 10px;
+  }
+  .nuevo-lanzamiento p > a {
+    color: white;
+  }
+
+  #Black {
+    color: black;
+    top: 65px;
+    font-size: 30px;
+    left: 320px;
+    border: none;
+  }
+
+  .nuevo-lanzamiento p > a:hover {
+    color: rgb(0, 0, 0);
+  }
+
+  .nuevo-lanzamiento img {
+    width: 100%;
+    height: 300px;
+    border-bottom: solid 10px white;
+    border-top: solid 2px white;
+    z-index: 0;
+  }
   .products-container {
     width: 100%;
     padding: 0px;
