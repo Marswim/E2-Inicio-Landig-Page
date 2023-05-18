@@ -713,6 +713,16 @@ nav a:hover {
   border-bottom: solid 10px white;
   border-top: solid 2px white;
   z-index: 0;
+  filter: grayscale(100%);
+  animation: colorTransition 3s infinite alternate;
+}
+@keyframes colorTransition {
+  0% {
+    filter: grayscale(100%);
+  }
+  100% {
+    filter: grayscale(0%);
+  }
 }
 /* productos */
 #products {
@@ -1285,9 +1295,6 @@ li {
   border: none;
   resize: none;
   padding: 0px 5px;
-}
-#text-area:active {
-  rows: 50px;
 }
 #text-area::placeholder {
   font-weight: 700;
