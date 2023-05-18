@@ -1277,7 +1277,7 @@ li {
   opacity: 0.4;
   top: -40%;
   right: 120px;
-  perspective: 800px;
+  perspective: 2400px;
 }
 .imagen-contacto img {
   width: 1600px;
