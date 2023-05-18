@@ -1278,6 +1278,20 @@ li {
   z-index: 6;
   width: 30%;
 }
+#text-area {
+  margin: 0px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  resize: none;
+  padding: 0px 5px;
+}
+#text-area:active {
+  rows: 50px;
+}
+#text-area::placeholder {
+  font-weight: 700;
+}
 footer {
   display: flex;
   justify-content: space-between;
@@ -1326,8 +1340,12 @@ footer {
   background-color: white;
   border-color: white;
   border: none;
+  border: solid 2px white;
+  border-top: 1px;
+  border-right: 1px;
   color: rgb(24, 24, 50);
-  font-weight: 900;
+  font-weight: 700;
+  transition: all 0.5s ease;
 }
 
 .leyenda-logo-footer img {
