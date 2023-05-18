@@ -212,9 +212,31 @@
     z-index: 2;
     left: 200px;
   }
+  .imagen-contacto {
+    position: absolute;
+    z-index: 0;
+    opacity: 0.4;
+    top: -5%;
+    right: 80px;
+    perspective: 1400px;
+  }
   .imagen-contacto img {
-    width: 1600px;
-    height: 100%;
+    width: 940px;
+    height: 500px;
+    animation: rotateX 25s linear infinite alternate;
+    transform-style: preserve-3d;
+    overflow: hidden;
+  }
+  @keyframes rotateX {
+    0% {
+      transform: rotateX(0deg);
+    }
+    50% {
+      transform: rotateX(30deg);
+    }
+    100% {
+      transform: rotateX(60deg);
+    }
   }
   footer {
     margin: 0px;
