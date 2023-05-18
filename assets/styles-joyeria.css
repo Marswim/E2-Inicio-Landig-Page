@@ -1277,11 +1277,27 @@ li {
   opacity: 0.4;
   top: -40%;
   right: 120px;
+  perspective: 800px;
 }
 .imagen-contacto img {
   width: 1600px;
   height: 600px;
+  animation: rotateX 25s linear infinite alternate;
+  transform-style: preserve-3d;
+  overflow: hidden;
 }
+@keyframes rotateX {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(30deg);
+  }
+  100% {
+    transform: rotateX(60deg);
+  }
+}
+
 #logo-02 {
   position: relative;
   opacity: none;
