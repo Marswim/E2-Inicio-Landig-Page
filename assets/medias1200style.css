@@ -522,6 +522,7 @@
   .imagen-contacto img {
     width: 1600px;
     height: 600px;
+    animation: none;
   }
   #logo-02 {
     position: relative;
