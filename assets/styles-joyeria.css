@@ -286,6 +286,7 @@ nav a:hover {
   border-color: rgba(12, 12, 24, 0.927);
   cursor: pointer;
   margin-left: 400px;
+  transition: all 0.5s ease;
 }
 
 .descubre:hover {
@@ -525,6 +526,7 @@ nav a:hover {
   border-color: white;
   color: white;
   cursor: pointer;
+  transition: all 1s ease;
 }
 .comenza:hover {
   background-color: white;
@@ -691,6 +693,7 @@ nav a:hover {
 }
 .nuevo-lanzamiento p > a {
   color: white;
+  transition: all 5s ease;
 }
 
 #Black {
@@ -1279,23 +1282,26 @@ li {
   right: 120px;
   perspective: 2400px;
 }
+@keyframes rotateX {
+  0% {
+    transform: rotateX(0deg);
+    transform-style: preserve-3d;
+  }
+  50% {
+    transform: rotateX(30deg);
+    transform-style: preserve-3d;
+  }
+  100% {
+    transform: rotateX(60deg);
+    transform-style: preserve-3d;
+  }
+}
 .imagen-contacto img {
   width: 1600px;
   height: 600px;
   animation: rotateX 25s linear infinite alternate;
   transform-style: preserve-3d;
   overflow: hidden;
-}
-@keyframes rotateX {
-  0% {
-    transform: rotateX(0deg);
-  }
-  50% {
-    transform: rotateX(30deg);
-  }
-  100% {
-    transform: rotateX(60deg);
-  }
 }
 
 #logo-02 {
@@ -1358,6 +1364,7 @@ footer {
   border-right: 1px;
   border-color: rgba(12, 12, 24, 0.927);
   cursor: pointer;
+  transition: all 1s ease-out;
 }
 .items-footer:hover {
   background-color: white;
@@ -1368,7 +1375,7 @@ footer {
   border-right: 1px;
   color: rgb(24, 24, 50);
   font-weight: 700;
-  transition: all 0.5s ease;
+  transition: all 1s ease-out;
 }
 
 .leyenda-logo-footer img {
