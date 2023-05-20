@@ -187,13 +187,13 @@
     position: absolute;
     z-index: 0;
     opacity: 0.4;
-    top: 40px;
+    top: -20px;
     right: 80px;
     perspective: 400px;
   }
   .imagen-contacto img {
     width: 600px;
-    height: 220px;
+    height: 300px;
     rotate: 90deg;
     animation: rotateX 25s linear infinite alternate;
     transform-style: preserve-3d;
