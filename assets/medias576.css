@@ -1,8 +1,16 @@
 @media (max-width: 576px) {
   header {
     width: 100%;
-    padding: 0px 5px;
+    padding: 0px 0px;
     gap: 40px;
+  }
+  .navbar {
+    margin: 0px;
+    padding: 0px;
+    gap: 10px;
+  }
+  .navbar i {
+    padding-left: 60px;
   }
   #logo-joyeria {
     padding: 0px;
